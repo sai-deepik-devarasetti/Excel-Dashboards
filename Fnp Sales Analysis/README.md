@@ -97,3 +97,6 @@ It serves as part of my analytics portfolio and reflects my ability to build pro
 3. Explore insights using slicers and interactive visuals  
 
 ---
+## **Author**
+**Deepak Devarasetti**  
+Data Analyst 
