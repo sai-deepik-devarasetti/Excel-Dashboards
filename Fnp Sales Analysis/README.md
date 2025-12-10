@@ -50,22 +50,6 @@ Custom measures created for:
 
 ---
 
-## 📁 Folder Structure
-
-FNP-Sales-Analysis/
-│
-├── Dashboard/
-│ └── Sales_Analysis_Dashboard.xlsx
-│
-├── SourceFiles/
-│ └── (Raw/Cleaned datasets used for analysis)
-│
-└── Screenshots/
-└── dashboard.pn
-
-
----
-
 ## 📈 Key Insights
 
 - Strong revenue from **Anniversary** and **Raksha Bandhan** occasions  
