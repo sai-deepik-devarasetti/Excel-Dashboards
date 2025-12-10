@@ -1,139 +1,120 @@
-Coffee Shop Sales Analysis – Excel BI Project
-Overview
+# **Coffee Shop Sales Analysis – Excel Business Intelligence Project**
 
-This repository contains an end-to-end Excel Business Intelligence project developed to analyze sales, customer footfall, product performance, and operational trends for a multi-location coffee shop chain. The dataset was sourced from the Maven Analytics Playground and processed using Excel’s advanced BI capabilities, including Power Query, Power Pivot, Data Modeling, DAX Measures, and interactive charts.
+## **Overview**
+This repository contains a comprehensive Excel Business Intelligence project designed to analyze sales performance, customer footfall, product trends, and operational metrics for a multi-location coffee shop chain.  
+The dataset was sourced from the **Maven Analytics Playground** and processed using Excel’s advanced analytical capabilities including **Power Query, Power Pivot, Data Modeling, DAX Measures**, and interactive dashboards.
 
-The final output is a fully interactive Excel dashboard designed for business decision-making.
+The final deliverable is a fully interactive Excel dashboard supporting data-driven decision making.
 
-Key Functionalities
-Data Preparation
+---
 
-Performed data cleaning and shaping using Power Query.
+## **Dashboard Features**
+The dashboard provides a consolidated analytical view through:
 
-Standardized field types, removed duplicates, fixed format inconsistencies, and prepared lookup dimensions.
+- **KPI Cards**
+  - Total Sales  
+  - Total Footfall  
+  - Average Bill per Person  
+  - Average Orders per Person  
 
-Loaded all tables into the Excel Data Model for optimized performance.
+- **Visualizations**
+  - Line chart: Quantity ordered by hour  
+  - Pie chart: Product category contribution to sales  
+  - Donut chart: Beverage size distribution  
+  - Bar charts: Weekday performance  
+  - Bar charts: Store-wise footfall and sales  
+  - Bar charts: Top 5 products by revenue  
 
-Data Modeling
+- **Interactive Controls**
+  - Month slicer  
+  - Day slicer  
 
-Built a relational data model using Power Pivot.
+---
 
-Created relationships across fact and dimension tables (e.g., Date, Product, Store, Orders).
+## **Data Preparation & Modeling**
 
-Defined calculated columns and a structured model to support downstream analysis.
+### **Power Query**
+- Performed extraction, cleaning, and transformation tasks  
+- Standardized data types and resolved inconsistencies  
+- Loaded structured tables into the Excel Data Model  
 
-Measures (DAX)
+### **Power Pivot & Data Model**
+- Constructed a **star-schema relational model**  
+- Established relationships between Fact (Orders) and Dimension tables (Products, Stores, Calendar)  
+- Created calculated columns as required for business logic  
 
-Developed a suite of DAX Measures, including:
+### **DAX Measures**
+Developed a comprehensive set of DAX measures including:
 
-Total Sales
+- **Total Sales**  
+- **Total Footfall**  
+- **Average Bill per Person**  
+- **Average Orders per Person**  
+- **Total Orders**  
+- **Category-Level & Product-Level Sales Measures**  
+- **Order Size Distribution Percentages**  
 
-Total Footfall
+These measures support all KPIs and dashboard visualizations.
 
-Average Bill per Person
+---
 
-Average Orders per Person
+## **Key Insights**
+- Coffee and Coffee Beans are the top-performing sales categories  
+- Astoria and Hell’s Kitchen consistently lead in both footfall and revenue  
+- Regular and Large beverage sizes represent the majority of orders  
+- Weekday sales outperform weekend sales  
+- Order volume increases steadily during evening hours  
 
-Order Count
+---
 
-Product-Level Sales Measures
+## **Tools & Technologies**
+- **Microsoft Excel**  
+- **Power Query (ETL)**  
+- **Power Pivot (Data Modeling)**  
+- **DAX (Measures & KPIs)**  
+- **Excel Charts & Slicers**  
 
-Size Distribution Percentages
+---
 
-Visualization & Dashboard
+## **Dataset**
+Dataset sourced from Maven Analytics Playground, including:
 
-Created an interactive Excel dashboard including:
+- Transactions  
+- Product details  
+- Store locations  
+- Date and time attributes  
+- Footfall data  
 
-Line chart showing quantity ordered by hour
+---
 
-Pie chart representing category-level sales distribution
-
-Donut chart showing size distribution of orders
-
-Bar charts for:
-
-Weekday performance
-
-Store-level footfall and sales
-
-Top product sales
-
-Slicers for Month and Day dimensions enabling dynamic filtering
-
-KPI cards showing Total Sales, Total Footfall, Average Bill per Person, and Average Orders per Person
-
-Insights Generated
-
-Coffee and Coffee Beans are the highest-revenue categories.
-
-Weekdays show higher order volumes, with notable peaks from Monday to Friday.
-
-Astoria and Hell’s Kitchen stores lead in both footfall and sales revenue.
-
-Regular and Large sizes contribute the largest share of orders.
-
-Evening hours show increased ordering behavior.
-
-Tools and Technologies
-Tool	Purpose
-Microsoft Excel	Dashboarding and reporting
-Power Query	Data cleaning and transformation
-Power Pivot	Data modeling and relationships
-DAX	Custom measures and KPIs
-Excel Charts & Slicers	Visualization and interactivity
-Dataset
-
-This project uses the publicly available dataset from Maven Analytics Playground (Coffee Shop dataset). It includes tables for:
-
-Transactions
-
-Products
-
-Store Locations
-
-Date and Time fields
-
-Customer footfall
-
-Project Structure
+## **Repository Structure**
 Coffee-Shop-Sales-Analysis/
-│── CoffeeShop_Dashboard.xlsx
+│── CoffeeShop_Sales_Analysis_Dashboard.xlsx
 │── README.md
-│── dashboard.png
-└── dataset_source.txt
+└── dashboard.png
 
-How to Use
 
-Download the Excel file from this repository.
+---
 
-Open it using Microsoft Excel (Office 365 or Excel 2019 recommended).
+## **How to Use**
+1. Download the Excel file from this repository.  
+2. Open it using **Microsoft Excel (Office 365 or Excel 2019+)**.  
+3. Use the Month and Day slicers to interact with the dashboard.  
+4. Explore visualizations and KPIs to identify sales and operational insights.
 
-Use the slicers to filter the dashboard by Month and Day.
+---
 
-Review KPIs and charts to explore sales and operational insights.
+## **Skills Demonstrated**
+- Advanced Excel BI Development  
+- Data Cleaning & Transformation  
+- Power Query ETL Processes  
+- Power Pivot Data Modeling  
+- DAX Measure Development  
+- Dashboard Design & Visualization  
+- Business Insight Generation  
 
-Skills Demonstrated
+---
 
-Data Cleaning and Shaping
-
-Power Query M Transformations
-
-Data Modeling with Power Pivot
-
-DAX Calculations
-
-Business Analytics
-
-Dashboard Design and Storytelling
-
-Excel BI Workflow Development
-
-Future Enhancements
-
-Introduction of trend forecasting features.
-
-Inclusion of external data sources (promotions, weather, customer segmentation).
-
-Migration of the dashboard to Power BI for enhanced analytics capability.
-
-Automation of refresh cycles using Power Automate.
+## **Author**
+**Sai Deepik Devarasetti**  
+Data Analyst
